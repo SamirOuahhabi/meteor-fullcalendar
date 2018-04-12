@@ -1,14 +1,14 @@
 Package.describe({
-    name: 'rzymek:fullcalendar',
+    name: 'octahex:fullcalendar',
     summary: "Full-sized drag & drop event calendar (jQuery plugin)",
-    version: "3.8.0",
-    git: "https://github.com/rzymek/meteor-fullcalendar.git"
+    version: "3.9.0",
+    git: "https://github.com/SamirOuahhabi/meteor-fullcalendar.git"
 });
 
 Package.onUse(function(api) {
     api.versionsFrom('1.6');
     api.use([
-        'momentjs:moment@2.8.4',
+        'momentjs:moment@2.22.0',
         'templating'
     ], 'client');
     api.addFiles([
